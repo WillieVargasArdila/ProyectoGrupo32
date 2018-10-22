@@ -1,0 +1,30 @@
+body{
+	background: #f0b429;
+	
+	}
+
+header{
+	
+	background: #005883;
+	height: 100%;
+	
+
+}
+
+#contenedor{
+	width: 100%;
+	margin: auto;
+	margin-top: 10px; 
+	border-radius: 10px; 
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+nav{
+	font-size: 35;
+	height: 190px;
+	margin: 0;
+	padding: 0;
+		
+}
+
