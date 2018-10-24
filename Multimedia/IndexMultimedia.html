@@ -4,7 +4,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script type="text/javascript" src="../js/IndexMultimedia.js"></script>
  
-<nav>
+ <nav>
     <div class="nav-wrapper orange">
       <a href="../Index.html" class="brand-logo right"> <img src="../img/banner1.jpg" alt="" class="responsive-img"> </a>
      <ul>
@@ -15,7 +15,11 @@
       <a href="Index.html">LECTURAS</a>
     </li>
     <li>
-      <a href="./Multimedia/IndexMultimedia.html">MULTIMEDIA</a>
+     <a class='dropdown-trigger  orange'  data-target='dropdown1'>MULTIMEDIA</a>
+    <ul id="dropdown1" class="dropdown-content orange ">
+       <li> <a href="../Multimedia/IndexMultimedia.html">ViDEOS</a></li>
+    <li><a href="../Multimedia/MultimediaPodcast.html">PODCAST</a></li>
+    </ul>
     </li>
     <li>
       <a href="Index.html">ACTIVIDADES</a>
@@ -27,7 +31,6 @@
 
     </div>
   </nav>
-
  <div class="col s12 m8 offset-m2 l6 offset-l3 center">
         <div class="card-panel grey lighten-5 z-depth-1">
           <div class="row valign-wrapper">
