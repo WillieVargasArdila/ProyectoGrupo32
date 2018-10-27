@@ -17,7 +17,7 @@ header{
 }
 
 #contenedor{
-	width: 60%;
+	width: 80%;
 	margin: auto;
 	margin-top: 20px; 
 	border-radius: 10px; 
@@ -25,6 +25,11 @@ header{
 	margin-bottom: 20px;
 	background:#005883;
 	border-bottom-style: double;
+}
+
+#contenedor2 {
+
+	width: 80%;
 }
 
 nav{
@@ -93,26 +98,29 @@ nav a:hover{
 
 aside{
 	 float: left;
-	 width: 400px;
-	 background: #FFFFFF;
+	 width: 50%;
+	 background: #F0B429;
 	 margin-top: 10px;
 	 border-radius: 10px;
+
 }
 
 aside h3{
 	font-size: 25px;
-	color: #FFFFFF;
-	background: #000000;
+	color: #000000;
+	background: #F0B429;
 	border-radius: 4px;
 	text-align: center;
 	padding: 10px;
-	font-family: arial; 
+	font-family: arial;
+	float: left; 
 }
 aside p{
 	padding: 10px;
 	font-size: 14px;
 	font-family: arial;
 	text-align:center;
+	background: #F0B429
 
 }
 footer{
@@ -132,9 +140,22 @@ footer p{
 
 h1 {
 	font-size: 25px;
-	color: #FFFFFF;
+	color: #000000;
+	font-family: arial;
+
+}
+
+h4 {
+
+	font-size: 20px;
+	color: #005883
+
 	
 }
 
+h5{
+	font-size: 20px;
+	color: #005883
 
+}
 
