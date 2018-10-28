@@ -58,8 +58,24 @@ nav a:hover{
 	border: 4px solid #FFFFFF;
 	margin-top: 8px;
 	float: left;
+}
 
-	
+#slider1{
+
+	margin: auto;
+	border: 4px solid #FFFFFF;
+	margin-top: 30px;
+	float: left;
+	margin-left: 10px;
+
+}
+
+#slider2{
+	margin:auto;
+	border: 10px solid #FFFFFF;
+	margin-top: 20px;
+	float: left;
+
 }
 
 #contenido{
@@ -88,7 +104,33 @@ nav a:hover{
 	border-radius: 12px;
 }
 
+#contenido3{
+	float: left;
+	width: 40%;
+	height: 91%;
+	background: #F0B429;
+	margin-top: 10px;
+	margin-right: 150px;
+	margin-left: 20px;
 
+}
+
+#contenido4{
+	float: right;
+	width: 40%;
+	background: #F0B429;
+	margin-top: 10px;
+	margin-right: 20px;
+	
+
+}
+
+#contenido5{
+	float: auto;
+	width: 40%;
+	background: #F0B429;
+	margin-top: 10px;
+	
 }
 .articulos{
 	margin: 10px;
