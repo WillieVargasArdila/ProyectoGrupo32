@@ -17,20 +17,18 @@ header{
 }
 
 #contenedor{
-	width: 80%;
+	width: 52.5%;
 	margin: auto;
 	margin-top: 20px; 
-	border-radius: 10px; 
+	border-radius: 30px; 
 	overflow: hidden;
 	margin-bottom: 20px;
 	background:#005883;
 	border-bottom-style: double;
+
 }
 
-#contenedor2 {
 
-	width: 80%;
-}
 
 nav{
 	background: #F0B429;
@@ -59,18 +57,38 @@ nav a:hover{
 	margin: auto;
 	border: 4px solid #FFFFFF;
 	margin-top: 8px;
+	float: left;
+
 	
 }
 
 #contenido{
 	float: left;
-	width: 500px;
+	width: 52%;
 	background: #F0B429;
-	border-radius: 10px;
+	border-radius: 12px;
 	overflow:  hidden;
 	margin-top: 10px;
 	margin-right: 10px;
+	margin-left: 20px;
 	margin-bottom: 10px;
+	border-bottom-style: double;
+}
+
+#contenido2{
+
+	float: left;
+	width: 42.5%;
+	background: #F0B429;
+	margin-top: 10px;
+	margin-right: 20px;
+	border-radius: 12px;
+	margin-bottom: 10px;
+	border-bottom-style: double;
+	border-radius: 12px;
+}
+
+
 }
 .articulos{
 	margin: 10px;
@@ -97,11 +115,15 @@ nav a:hover{
 }
 
 aside{
-	 float: left;
-	 width: 50%;
+	 float: right;
+	 width: 40%;
 	 background: #F0B429;
 	 margin-top: 10px;
+	 margin-right: 20px;
 	 border-radius: 10px;
+	 margin bottom: 10px; 
+	 border-bottom-style: double;
+	 overflow: hidden;
 
 }
 
@@ -158,4 +180,6 @@ h5{
 	color: #005883
 
 }
-
+h3{
+	color: #005883;
+}
