@@ -17,15 +17,18 @@ header{
 }
 
 #contenedor{
-	width: 60%;
+	width: 52.5%;
 	margin: auto;
 	margin-top: 20px; 
-	border-radius: 10px; 
+	border-radius: 30px; 
 	overflow: hidden;
 	margin-bottom: 20px;
 	background:#005883;
 	border-bottom-style: double;
+
 }
+
+
 
 nav{
 	background: #F0B429;
@@ -54,18 +57,80 @@ nav a:hover{
 	margin: auto;
 	border: 4px solid #FFFFFF;
 	margin-top: 8px;
-	
+	float: left;
+}
+
+#slider1{
+
+	margin: auto;
+	border: 4px solid #FFFFFF;
+	margin-top: 30px;
+	float: left;
+	margin-left: 10px;
+
+}
+
+#slider2{
+	margin:auto;
+	border: 10px solid #FFFFFF;
+	margin-top: 20px;
+	float: left;
+
 }
 
 #contenido{
 	float: left;
-	width: 500px;
+	width: 52%;
 	background: #F0B429;
-	border-radius: 10px;
+	border-radius: 12px;
 	overflow:  hidden;
 	margin-top: 10px;
 	margin-right: 10px;
+	margin-left: 20px;
 	margin-bottom: 10px;
+	border-bottom-style: double;
+}
+
+#contenido2{
+
+	float: left;
+	width: 42.5%;
+	background: #F0B429;
+	margin-top: 10px;
+	margin-right: 20px;
+	border-radius: 12px;
+	margin-bottom: 10px;
+	border-bottom-style: double;
+	border-radius: 12px;
+}
+
+#contenido3{
+	float: left;
+	width: 40%;
+	height: 91%;
+	background: #F0B429;
+	margin-top: 10px;
+	margin-right: 150px;
+	margin-left: 20px;
+
+}
+
+#contenido4{
+	float: right;
+	width: 40%;
+	background: #F0B429;
+	margin-top: 10px;
+	margin-right: 20px;
+	
+
+}
+
+#contenido5{
+	float: auto;
+	width: 40%;
+	background: #F0B429;
+	margin-top: 10px;
+	
 }
 .articulos{
 	margin: 10px;
@@ -92,27 +157,34 @@ nav a:hover{
 }
 
 aside{
-	 float: left;
-	 width: 400px;
-	 background: #FFFFFF;
+	 float: right;
+	 width: 40%;
+	 background: #F0B429;
 	 margin-top: 10px;
+	 margin-right: 20px;
 	 border-radius: 10px;
+	 margin bottom: 10px; 
+	 border-bottom-style: double;
+	 overflow: hidden;
+
 }
 
 aside h3{
 	font-size: 25px;
-	color: #FFFFFF;
-	background: #000000;
+	color: #000000;
+	background: #F0B429;
 	border-radius: 4px;
 	text-align: center;
 	padding: 10px;
-	font-family: arial; 
+	font-family: arial;
+	float: left; 
 }
 aside p{
 	padding: 10px;
 	font-size: 14px;
 	font-family: arial;
 	text-align:center;
+	background: #F0B429
 
 }
 footer{
@@ -132,9 +204,24 @@ footer p{
 
 h1 {
 	font-size: 25px;
-	color: #FFFFFF;
+	color: #000000;
+	font-family: arial;
+
+}
+
+h4 {
+
+	font-size: 20px;
+	color: #005883
+
 	
 }
 
+h5{
+	font-size: 20px;
+	color: #005883
 
-
+}
+h3{
+	color: #005883;
+}
